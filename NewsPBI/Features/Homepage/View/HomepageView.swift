@@ -22,11 +22,21 @@ struct HomepageView: View {
                         Text("Berita Terkini")
                         
                         ScrollView(.horizontal) {
-                            HStack{
-                                ForEach(viewModel.topHeadlineNews, id: \.self) { news in
-                                    TopHeadlineCardView(news: news)
-                                        .frame(width: 300)
-                                        .padding(.horizontal, 8)
+                            HStack(spacing: 16) {
+                                if viewModel.isLoading {
+                                    ForEach(viewModel.topHeadlineNews.indices, id: \.self) { _ in
+                                        Rectangle()
+                                            .frame(width: 300, height: 200)
+                                            .foregroundStyle(Color.black.opacity(0.2))
+                                            .cornerRadius(8)
+                                            .shimmer()
+                                    }
+                                } else {
+                                    ForEach(viewModel.topHeadlineNews, id: \.self) { news in
+                                        TopHeadlineCardView(news: news)
+                                            .frame(width: 300)
+                                            .padding(.horizontal, 8)
+                                    }
                                 }
                             }
                         }
@@ -34,8 +44,19 @@ struct HomepageView: View {
                         Text("Semua Berita")
                         
                         VStack(spacing: 8) {
-                            ForEach(viewModel.news, id: \.self) { news in
-                                NewsCardView(news: news)
+                            if viewModel.isLoading {
+                                ForEach(viewModel.news.indices, id: \.self) { _ in
+                                    Rectangle()
+                                        .frame(maxWidth: .infinity)
+                                        .frame(height: 100)
+                                        .foregroundStyle(Color.black.opacity(0.2))
+                                        .cornerRadius(8)
+                                        .shimmer()
+                                }
+                            } else {
+                                ForEach(viewModel.news, id: \.self) { news in
+                                    NewsCardView(news: news)
+                                }
                             }
                         }
                     }
@@ -61,8 +82,4 @@ struct HomepageView: View {
             }
         }
     }
-}
-
-#Preview {
-    HomepageView()
 }

@@ -72,5 +72,7 @@ struct DetailNewsView: View {
             })
         }
         .navigationBarBackButtonHidden()
+        .toolbarBackground(Color.background.base, for: .navigationBar)
+        .toolbarBackground(.visible, for: .navigationBar)
     }
 }

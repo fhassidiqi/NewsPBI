@@ -8,10 +8,12 @@
 import Foundation
 import Combine
 
+@MainActor
 class HomepageViewModel: ObservableObject {
     
     @Published var news: [NewsModel] = []
     @Published var topHeadlineNews: [NewsModel] = []
+    
     @Published var isLoading: Bool = false
     @Published var errorMessage: String?
     
@@ -20,37 +22,41 @@ class HomepageViewModel: ObservableObject {
     private let getTopHeadlineUseCase = GetTopHeadlineUseCase()
     
     func fetchNews() {
-        isLoading = true
-        getNewsUseCase.execute(params: GetNewsUseCase.Param())
-            .sink(receiveCompletion: { completion in
-                self.isLoading = false
-                switch completion {
-                case .finished:
-                    break
-                case .failure(let error):
-                    self.errorMessage = error.localizedDescription
-                }
-            }, receiveValue: { news in
-                self.news = news
-            })
-            .store(in: &cancellables)
+        Task {
+            isLoading = true
+            getNewsUseCase.execute(params: GetNewsUseCase.Param())
+                .sink(receiveCompletion: { completion in
+                    self.isLoading = false
+                    switch completion {
+                    case .finished:
+                        break
+                    case .failure(let error):
+                        self.errorMessage = error.localizedDescription
+                    }
+                }, receiveValue: { news in
+                    self.news = news
+                })
+                .store(in: &cancellables)
+        }
     }
     
     func getTopHeadlines() {
-        isLoading = true
-        getTopHeadlineUseCase.execute(params: GetTopHeadlineUseCase.Params())
-            .sink { completion in
-                self.isLoading = false
-                switch completion {
-                case .finished:
-                    break
-                case .failure(let error):
-                    self.errorMessage = error.localizedDescription
+        Task {
+            isLoading = true
+            getTopHeadlineUseCase.execute(params: GetTopHeadlineUseCase.Params())
+                .sink { completion in
+                    self.isLoading = false
+                    switch completion {
+                    case .finished:
+                        break
+                    case .failure(let error):
+                        self.errorMessage = error.localizedDescription
+                    }
+                } receiveValue: { news in
+                    self.topHeadlineNews = news
                 }
-            } receiveValue: { news in
-                self.topHeadlineNews = news
-            }
-            .store(in: &cancellables)
+                .store(in: &cancellables)
+        }
     }
     
     func formattedDate(from dateString: String) -> String? {
