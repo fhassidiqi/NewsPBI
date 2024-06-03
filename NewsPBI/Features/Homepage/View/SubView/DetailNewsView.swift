@@ -39,6 +39,10 @@ struct DetailNewsView: View {
                         }
                     }
                     
+                    Text(news.title)
+                        .font(.headline)
+                        .foregroundStyle(Color.text.primary)
+                    
                     HStack(spacing: 6) {
                         Image(systemName: "person")
                             .resizable()
