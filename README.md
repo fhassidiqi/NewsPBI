@@ -1,11 +1,23 @@
 <a name="readme-top"></a>
 
 <!-- PROJECT SHIELDS -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
+<div align="center">
+  <a href="https://github.com/fhassidiqi/NewsPBI/graphs/contributors">
+    <img src="https://img.shields.io/github/contributors/fhassidiqi/NewsPBI.svg?style=for-the-badge" alt="Contributors">
+  </a>
+  <a href="https://github.com/fhassidiqi/NewsPBI/network/members">
+    <img src="https://img.shields.io/github/forks/fhassidiqi/NewsPBI.svg?style=for-the-badge" alt="Forks">
+  </a>
+  <a href="https://github.com/fhassidiqi/NewsPBI/stargazers">
+    <img src="https://img.shields.io/github/stars/fhassidiqi/NewsPBI.svg?style=for-the-badge" alt="Stargazers">
+  </a>
+  <a href="https://github.com/fhassidiqi/NewsPBI/issues">
+    <img src="https://img.shields.io/github/issues/fhassidiqi/NewsPBI.svg?style=for-the-badge" alt="Issues">
+  </a>
+  <a href="https://github.com/fhassidiqi/NewsPBI/blob/master/LICENSE.txt">
+    <img src="https://img.shields.io/github/license/fhassidiqi/NewsPBI.svg?style=for-the-badge" alt="MIT License">
+  </a>
+</div>
 
 <!-- PROJECT LOGO -->
 <br />
@@ -64,17 +76,3 @@ This project is licensed under the [MIT License](LICENSE).
 ## Contact
 Falah Hasbi Assidiqi - [Email](falahhasbiassidiqi@gmail.com)
 [Twitter](https://twitter.com/fhassidiqi) - [LinkedIn](https://www.linkedin.com/in/falahhasbiassidiqi/) - [Medium](https://medium.com/@falahhasbiassidiqi)
-
-<!-- MARKDOWN LINKS & IMAGES -->
-[contributors-shield]: https://img.shields.io/github/contributors/fhassidiqi/NewsPBI.svg?style=for-the-badge
-[contributors-url]: https://github.com/fhassidiqi/NewsPBI/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/fhassidiqi/NewsPBI.svg?style=for-the-badge
-[forks-url]: https://github.com/fhassidiqi/NewsPBI/network/members
-[stars-shield]: https://img.shields.io/github/stars/fhassidiqi/NewsPBI.svg?style=for-the-badge
-[stars-url]: https://github.com/fhassidiqi/NewsPBI/stargazers
-[issues-shield]: https://img.shields.io/github/issues/fhassidiqi/NewsPBI.svg?style=for-the-badge
-[issues-url]: https://github.com/fhassidiqi/NewsPBI/issues
-[license-shield]: https://img.shields.io/github/license/fhassidiqi/NewsPBI.svg?style=for-the-badge
-[license-url]: https://github.com/fhassidiqi/NewsPBI/blob/master/LICENSE.txt
-[Swift]: https://img.shields.io/badge/swift-E55604?style=for-the-badge&logo=swift&logoColor=white
-[Swift-url]: https://developer.apple.com/swift/
