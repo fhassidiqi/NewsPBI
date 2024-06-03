@@ -1,17 +1,19 @@
 <a name="readme-top"></a>
 
 <!-- PROJECT SHIELDS -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
+<div align="center">
+  [![Contributors][contributors-shield]][contributors-url]
+  [![Forks][forks-shield]][forks-url]
+  [![Stargazers][stars-shield]][stars-url]
+  [![Issues][issues-shield]][issues-url]
+  [![MIT License][license-shield]][license-url]
+</div>
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
   <a href="https://github.com/fhassidiqi/NewsPBI">
-    <img src="https://drive.google.com/file/d/1-D4gnUSMNK4yopeSnYQ3P2BMJRWWuOrw/view?usp=share_link" alt="Logo" width="80" height="80">
+    <img src="https://drive.google.com/uc?export=view&id=1-D4gnUSMNK4yopeSnYQ3P2BMJRWWuOrw" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">News PBI</h3>
