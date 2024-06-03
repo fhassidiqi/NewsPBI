@@ -14,7 +14,7 @@
   <a href="https://github.com/fhassidiqi/NewsPBI/issues">
     <img src="https://img.shields.io/github/issues/fhassidiqi/NewsPBI.svg?style=for-the-badge" alt="Issues">
   </a>
-  <a href="https://github.com/fhassidiqi/NewsPBI/blob/master/LICENSE.txt">
+  <a href="https://github.com/fhassidiqi/NewsPBI/blob/master/LICENSE">
     <img src="https://img.shields.io/github/license/fhassidiqi/NewsPBI.svg?style=for-the-badge" alt="MIT License">
   </a>
 </div>
