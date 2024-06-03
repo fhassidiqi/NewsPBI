@@ -1,13 +1,11 @@
 <a name="readme-top"></a>
 
 <!-- PROJECT SHIELDS -->
-<div align="center">
-  [![Contributors][contributors-shield]][contributors-url]
-  [![Forks][forks-shield]][forks-url]
-  [![Stargazers][stars-shield]][stars-url]
-  [![Issues][issues-shield]][issues-url]
-  [![MIT License][license-shield]][license-url]
-</div>
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
 
 <!-- PROJECT LOGO -->
 <br />
@@ -65,9 +63,7 @@ This project is licensed under the [MIT License](LICENSE).
 <!-- CONTACT -->
 ## Contact
 Falah Hasbi Assidiqi - [Email](falahhasbiassidiqi@gmail.com)
-* [Twitter](https://twitter.com/fhassidiqi)
-* [LinkedIn](https://www.linkedin.com/in/falahhasbiassidiqi/)
-* [Medium](https://medium.com/@falahhasbiassidiqi)
+[Twitter](https://twitter.com/fhassidiqi) - [LinkedIn](https://www.linkedin.com/in/falahhasbiassidiqi/) - [Medium](https://medium.com/@falahhasbiassidiqi)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 [contributors-shield]: https://img.shields.io/github/contributors/fhassidiqi/NewsPBI.svg?style=for-the-badge
