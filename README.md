@@ -76,3 +76,7 @@ This project is licensed under the [MIT License](LICENSE).
 ## Contact
 Falah Hasbi Assidiqi - [Email](falahhasbiassidiqi@gmail.com)
 [Twitter](https://twitter.com/fhassidiqi) - [LinkedIn](https://www.linkedin.com/in/falahhasbiassidiqi/) - [Medium](https://medium.com/@falahhasbiassidiqi)
+
+<!-- MARKDOWN LINKS & IMAGES -->
+[Swift]: https://img.shields.io/badge/swift-E55604?style=for-the-badge&logo=swift&logoColor=white
+[Swift-url]: https://developer.apple.com/swift/
