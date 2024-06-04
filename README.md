@@ -33,7 +33,7 @@
     <a href="https://github.com/fhassidiqi/NewsPBI/tree/main/NewsPBI"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/fhassidiqi/NewsPBI">View Demo</a>
+    <a href="https://drive.google.com/file/d/1anMNOFWrfhUOJBbxqGBSVHfhT3q0QiQd/view?usp=sharing">View Demo</a>
     ·
     <a href="https://github.com/fhassidiqi/NewsPBI/issues">Report Bug</a>
   </p>
